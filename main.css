@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #081b29;
+
+}
+
+
+header {
+
+    width: 100%;
+    position: fixed;
+    background-color: #081b29;
+    border-bottom: solid white 1px;
+    padding: 0.5vw 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header a img{
+    width: 2vw;
+    height: 2vw;
+}
+header .logo {
+    font-family: "Edu VIC WA NT Beginner";
+    color: #00abf0;
+    text-decoration: none;
+    font-size: 1.7vw;
+
+}
+
+header .navBar a {
+    color: white;
+    text-decoration: none;
+    font-family: "Edu VIC WA NT Beginner";
+    font-size: 1.7vw;
+    margin-left: 2vw;
+    transition: .3s;
+}
+
+header a:hover {
+    color: #00abf0;
+    border-bottom: white solid;
+}
+
+.photo {
+
+    background-image: url(Screenshot\ 2024-08-11\ 232114.png);
+    background-attachment: scroll;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 55vw;
+    width: 100%;
+    border-bottom: solid white 1px;
+    padding: 10vw;
+}
+
+.about {
+    padding: 5vw 5vw;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+}
+
+.about div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.about div img {
+    width: 28vw;
+    height: 36vw;
+    border-radius: 500px;
+    border: white 5px solid;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: white;
+    text-align: justify;
+    text-indent: 2vw;
+    max-width: 500px;
+}
+
+h1 {
+    color: aqua;
+}
+
+.about .cv a {
+    text-decoration: none;
+    background-color: #00abf0;
+    border: #00abf0 solid;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+    border-radius: 40px;
+    margin-top: 1vw;
+    margin-bottom: 5vw;
+    padding: 0.2vw 1vw;
+
+}
+
+.about .cv a:hover {
+    color: #090909;
+}
+
+.portfolio div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    border: #00abf0 solid;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 2vw;
+
+
+}
+
+.portfolio {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2vw 2px;
+}
+
+.portfolio div img {
+    width: 22vw;
+    height: 22vw;
+    border-radius: 100px;
+}
+
+.portfolio h1 {
+    margin: 3vw 35vw 3vw;
+
+}
+
+.portfolio div p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vw;
+    max-width: 25vw;
+    max-height: 15vw;
+    color: whitesmoke;
+}
+
+.portfolio a {
+    background-color: #00abf0;
+
+    color: black;
+    font-size: 1vw;
+    padding: 0.5vw 1vw;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.portfolio a:hover {
+    background-color: rgb(59, 16, 233);
+    color: white;
+}
+
+.portfolio div:hover {
+    border: rgb(5, 207, 79) solid;
+
+}
+
+.skills .language div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skills .language {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .language div img {
+    width: 8vw;
+    height: 8vw;
+}
+
+.skills h1 {
+    margin-top: 5vw;
+}
+
+.skills hr {
+    margin-top: 7vw;
+}
+
+.skills .language div h2 {
+    color: black;
+    background: linear-gradient(to right, rgb(51, 0, 255), rgb(0, 200, 255), rgb(1, 20, 1));
+    
+    border-radius: 20px;
+    padding: 0.5vw 0.8vw;
+    border: white double;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.skills .language h2:hover {
+    color: white;
+    background: linear-gradient(to right, red, rgb(255, 0, 179), green);
+    border: black dotted;
+}
+
+textarea {
+    width: 83vw;
+    height: 15vw;
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: #00abf0;
+
+    padding: 1vw;
+}
+
+.one input,
+.two input {
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: gray solid 0.01vw;
+    color: #00abf0;
+
+    margin: 1vw;
+    padding: 1vw;
+    width: 40vw;
+    height: 4vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: white;
+}
+
+#page5 h1 {
+    text-align: center;
+    padding: 3vw 3vw 2vw;
+}
+
+#page5 h1 span {
+    color: aliceblue;
+    font-family: cursive;
+}
+form .five{
+    background-color: transparent;
+    color: aliceblue;
+}
+form .five:hover {
+   
+    color: rgb(26, 108, 232);
+}
+#page5 h3{
+    margin: 2vw;
+    color: white;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    
+text-align: center;
+}
